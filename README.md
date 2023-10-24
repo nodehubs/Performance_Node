@@ -1,6 +1,6 @@
 # Performance Node
 
-# RDK X3 & RDK X3 Module
+# RDK X3 & RDK X3 Module 性能检测应用，监测CPU, BPU, Memory和Disk
 
 该应用基于Web网页打造，无论是什么品牌的电脑和手机，只需要在浏览器访问即可。
 
