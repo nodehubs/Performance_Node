@@ -8,15 +8,13 @@
 
 <img src=".\doc\mult_device.jpg" alt="mult_device" style="zoom:70%;" />
 
-安装requirements，主要是Flask和pstiul
+安装requirements，主要是Flask和psutil
 
 ```bash
-pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+pip install psutil==5.9.6 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 ```
 ```bash
-# requirements
-psutil==5.9.6
-flask==3.0.0
+pip install flask==3.0.0 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 ```
 
 
@@ -24,7 +22,6 @@ flask==3.0.0
 
 ```
 source /opt/tros/setup.bash
-source ./install/local_setup.sh
 ros2 run performance_node_pkg_py performance_node
 ```
 
