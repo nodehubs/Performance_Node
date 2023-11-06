@@ -8,7 +8,7 @@
 
 <img src=".\doc\mult_device.jpg" alt="mult_device" style="zoom:70%;" />
 
-**安装requirements，主要是Flask和psutil**
+**安装Flask和psutil**
 
 ```bash
 pip install psutil==5.9.6 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
