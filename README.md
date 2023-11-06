@@ -34,7 +34,7 @@ ros2 run performance_node_pkg_py performance_node
 在同一局域网访问X3的5000端口即可
 
 ```bash
-192.168.xxx.xxx:5000
+IP:5000
 ```
 
 
