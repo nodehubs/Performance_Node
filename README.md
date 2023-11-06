@@ -17,6 +17,12 @@ pip install psutil==5.9.6 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-ho
 pip install flask==3.0.0 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 ```
 
+启动RDK X3后，通过终端SSH或者VNC连接机器人，复制如下命令在RDK的系统上运行，完成相关Node的安装。
+
+```
+sudo apt update
+sudo apt install -y tros-performance_node_pkg_py
+```
 
 运行
 
