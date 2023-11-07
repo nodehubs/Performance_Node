@@ -1,3 +1,0 @@
-[console_scripts]
-performance_node = performance_node_pkg_py.performance_node:main
-
